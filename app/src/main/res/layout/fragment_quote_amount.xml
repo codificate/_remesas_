@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_quote_amount"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="net.iantech.android.remitee.QuoteAmountFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/layout_quote_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingEnd="@dimen/text_vertical_margin"
+                android:paddingLeft="@dimen/text_vertical_margin"
+                android:paddingRight="@dimen/text_vertical_margin"
+                android:paddingStart="@dimen/text_vertical_margin"
+                android:text="@string/quote_amount_option1"
+                android:textSize="@dimen/main_bodyverysmalltext_textsize" />
+
+            <LinearLayout
+                android:id="@+id/quote_amount_source_linearlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/text_vertical_margin"
+                android:layout_marginLeft="@dimen/text_vertical_margin"
+                android:layout_marginRight="@dimen/text_vertical_margin"
+                android:background="@drawable/card_gray_background"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/quote_amount_source_symbol"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="@dimen/card_margin"
+                    android:layout_weight="0.15"
+                    android:gravity="center"
+                    android:textSize="@dimen/main_bodylargetext_textsize" />
+
+                <EditText
+                    android:id="@+id/quote_amount_source_edittext"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="end"
+                    android:layout_weight="0.7"
+                    android:background="@drawable/card_lightgray_background"
+                    android:ems="10"
+                    android:imeOptions="actionSend"
+                    android:inputType="numberDecimal"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:textAlignment="textEnd"
+                    android:textSize="@dimen/main_bodylargetext_textsize" />
+
+                <ImageView
+                    android:id="@+id/quote_amount_source_flag_imageview"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.15"
+                    android:padding="@dimen/text_vertical_margin" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingEnd="@dimen/text_vertical_margin"
+                android:paddingLeft="@dimen/text_vertical_margin"
+                android:paddingRight="@dimen/text_vertical_margin"
+                android:paddingStart="@dimen/text_vertical_margin"
+                android:text="@string/quote_amount_option2" />
+
+            <LinearLayout
+                android:id="@+id/quote_amount_target_linearlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/text_vertical_margin"
+                android:layout_marginLeft="@dimen/text_vertical_margin"
+                android:layout_marginRight="@dimen/text_vertical_margin"
+                android:background="@drawable/card_gray_background"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/quote_amount_target_symbol"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="@dimen/card_margin"
+                    android:layout_weight="0.15"
+                    android:gravity="center"
+                    android:textSize="@dimen/main_bodylargetext_textsize" />
+
+                <EditText
+                    android:id="@+id/quote_amount_target_edittext"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="end"
+                    android:layout_weight="0.7"
+                    android:background="@drawable/card_lightgray_background"
+                    android:ems="10"
+                    android:imeOptions="actionSend"
+                    android:inputType="numberDecimal"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:textAlignment="textEnd"
+                    android:textSize="@dimen/main_bodylargetext_textsize" />
+
+                <ImageView
+                    android:id="@+id/quote_amount_target_flag_imageview"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.15"
+                    android:padding="@dimen/text_vertical_margin" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/quote_amount_local_reference_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="@dimen/activity_vertical_largemargin"
+                android:paddingEnd="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_vertical_margin"
+                android:paddingRight="@dimen/activity_vertical_margin"
+                android:paddingStart="@dimen/activity_vertical_margin"
+                android:textSize="@dimen/account_number_textsize" />
+
+            <TextView
+                android:id="@+id/quote_amount_usd_reference_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="@dimen/activity_vertical_largemargin"
+                android:paddingEnd="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_vertical_margin"
+                android:paddingRight="@dimen/activity_vertical_margin"
+                android:paddingStart="@dimen/activity_vertical_margin"
+                android:textSize="@dimen/account_number_textsize"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/quote_agent_discount_reference_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="@dimen/activity_vertical_largemargin"
+                android:paddingEnd="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_vertical_margin"
+                android:paddingRight="@dimen/activity_vertical_margin"
+                android:paddingStart="@dimen/activity_vertical_margin"
+                android:textSize="@dimen/account_number_textsize" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/quoteAmmountNextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="@dimen/main_button_vertical_padding"
+        android:paddingTop="@dimen/main_button_vertical_padding"
+        android:text="@string/action_continue"
+        android:textSize="@dimen/button_textsize"
+        android:theme="@style/AppTheme.RaisedButton.Accent" />
+</RelativeLayout>

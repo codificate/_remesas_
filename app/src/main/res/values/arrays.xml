@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="country_ids">
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>4</item>
+        <item>2</item>
+        <item>6</item>
+    </integer-array>
+    <string-array name="country_names">
+        <item>Argentina</item>
+        <item>Bolivia</item>
+        <item>Colombia</item>
+        <item>Paraguay</item>
+        <item>Perú</item>
+        <item>República Dominicana</item>
+    </string-array>
+    <string-array name="country_codes">
+        <item>AR</item>
+        <item>BO</item>
+        <item>CO</item>
+        <item>PY</item>
+        <item>PE</item>
+        <item>DO</item>
+    </string-array>
+    <string-array name="country_currencyCodes">
+        <item>ARS</item>
+        <item>BOB</item>
+        <item>COP</item>
+        <item>PYG</item>
+        <item>PEN</item>
+        <item>DOP</item>
+    </string-array>
+    <string-array name="country_currencyNames">
+        <item>Pesos Argentinos</item>
+        <item>Bolivianos</item>
+        <item>Pesos Colombianos</item>
+        <item>Guaranies</item>
+        <item>Soles Peruanos</item>
+        <item>Pesos Dominicanos</item>
+    </string-array>
+    <string-array name="country_currencySymbols">
+        <item>$</item>
+        <item>$b</item>
+        <item>$</item>
+        <item>Gs</item>
+        <item>S/.</item>
+        <item>RD$</item>
+    </string-array>
+    <integer-array name="country_phoneCodes">
+        <item>54</item>
+        <item>591</item>
+        <item>57</item>
+        <item>595</item>
+        <item>51</item>
+        <item>1</item>
+    </integer-array>
+    <string-array name="country_flags">
+        <item>flag_ar</item>
+        <item>flag_bo</item>
+        <item>flag_co</item>
+        <item>flag_py</item>
+        <item>flag_pe</item>
+        <item>flag_do</item>
+    </string-array>
+</resources>

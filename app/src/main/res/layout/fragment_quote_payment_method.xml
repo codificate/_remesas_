@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_quote_payment_method"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="net.iantech.android.remitee.QuotePaymentMethodFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/quote_payment_method_cash_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/main_button_margin"
+            android:drawableLeft="@drawable/ic_attach_money_white_48dp"
+            android:drawablePadding="@dimen/activity_horizontal_margin"
+            android:drawableStart="@drawable/ic_attach_money_white_48dp"
+            android:gravity="center|start"
+            android:paddingBottom="@dimen/main_button_vertical_padding"
+            android:paddingTop="@dimen/main_button_vertical_padding"
+            android:text="@string/quote_payment_method_cash"
+            android:textSize="@dimen/button_textsize"
+            android:theme="@style/AppTheme.RaisedButton.Accent" />
+
+        <Button
+            android:id="@+id/quote_payment_method_bank_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/main_button_margin"
+            android:drawableLeft="@drawable/ic_account_balance_white_48dp"
+            android:drawablePadding="@dimen/activity_horizontal_margin"
+            android:drawableStart="@drawable/ic_account_balance_white_48dp"
+            android:gravity="center|start"
+            android:paddingBottom="@dimen/main_button_vertical_padding"
+            android:paddingTop="@dimen/main_button_vertical_padding"
+            android:text="@string/quote_payment_method_bank"
+            android:textSize="@dimen/button_textsize"
+            android:theme="@style/AppTheme.RaisedButton.Accent" />
+
+        <Button
+            android:id="@+id/quote_payment_method_creditcard_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/main_button_margin"
+            android:drawableLeft="@drawable/ic_credit_card_white_48dp"
+            android:drawablePadding="@dimen/activity_horizontal_margin"
+            android:drawableStart="@drawable/ic_credit_card_white_48dp"
+            android:gravity="center|start"
+            android:paddingBottom="@dimen/main_button_vertical_padding"
+            android:paddingTop="@dimen/main_button_vertical_padding"
+            android:text="@string/quote_payment_method_creditcard"
+            android:textSize="@dimen/button_textsize"
+            android:theme="@style/AppTheme.RaisedButton.Accent" />
+
+        <Button
+            android:id="@+id/quote_payment_method_billers_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/main_button_margin"
+            android:drawableLeft="@drawable/ic_credit_card_white_48dp"
+            android:drawablePadding="@dimen/activity_horizontal_margin"
+            android:drawableStart="@drawable/ic_receipt_white_48dp"
+            android:gravity="center|start"
+            android:paddingBottom="@dimen/main_button_vertical_padding"
+            android:paddingTop="@dimen/main_button_vertical_padding"
+            android:text="@string/quote_payment_method_billers"
+            android:textSize="@dimen/button_textsize"
+            android:theme="@style/AppTheme.RaisedButton.Accent" />
+    </LinearLayout>
+</ScrollView>

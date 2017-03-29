@@ -1,0 +1,187 @@
+<resources>
+    <string name="app_name">Remitee</string>
+
+    <!-- FRAGMENT TAGS -->
+    <string name="contact_info_fragment">Crear contacto enviador</string>
+    <string name="take_photo_credentials_fragment">Tomar foto DNI</string>
+
+    <string name="image">Imagen</string>
+    <string name="loading">Cargando...</string>
+
+    <string name="no_internet_connection">NO HAY CONEXION A INTERNET!</string>
+    <string name="google_play_services_incompatible">Este dispositivo no es compatible con Google Play Services</string>
+
+    <string name="error_not_image">It is not a image</string>
+
+    <string name="error_user_cancelled">User cancelled image capture</string>
+    <string name="error_failed_capture">Sorry! Failed to capture image</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_enter">Ingresar</string>
+    <string name="action_continue">Continuar</string>
+    <string name="action_save">Guardar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_pay">Pagar</string>
+    <string name="or">O</string>
+
+    <string name="register_agent"><u>Registrarme como Agente</u></string>
+
+    <string name="select_recent_senders">SELECCIONAR DE ENVIOS RECIENTES</string>
+
+    <string name="new_contact">Nuevo Contacto</string>
+    <string name="select_contact">Seleccionar</string>
+
+    <string name="continue_process">Continuar\nel proceso</string>
+
+    <string name="collect_cash_reminder">Recuerda presentarle tu documento al Agente Remitee.</string>
+
+    <string name="collect_cash_amount">Tu saldo a cobrar es:</string>
+
+    <string name="phone">CELULAR</string>
+    <string name="area">AREA</string>
+    <string name="sender_phone">TELÉFONO DE ENVIADOR</string>
+    <string name="agent_phone">TELÉFONO DE AGENTE</string>
+    <string name="agent_code">CÓDIGO DE AGENTE</string>
+    <string name="document_number">NÚMERO DE DOCUMENTO</string>
+    <string name="firstName">NOMBRE</string>
+    <string name="lastName">APELLIDO</string>
+    <string name="agent_login_explanation">\n<b>Conviértete en el héroe de tu comunidad.</b>\n\nRegistrate como Agente para ayudar a hacer envios de dinero con Remitee en forma fácil y segura.</string>
+
+
+    <string name="action_quote">Cotizar Envio</string>
+    <string name="action_receive">Recibir Dinero</string>
+    <string name="action_confirm">Confirmar</string>
+    <string name="action_end">Finalizar</string>
+    <string name="action_notify_me">Notificarme</string>
+    <string name="welcome_message">Bienvenido! Comienza a enviar dinero a tus familiares y amigos con Remitee</string>
+    <string name="thanks_message">Muchas Gracias por usar Remitee!</string>
+    <string name="notifications_message">Puedes consultar el estado de tu envío en www.remitee.com con tu código de operación</string>
+    <string name="login_agent"><u>Ingresar como Agente</u></string>
+
+    <string name="your_tracking_number">Tu número de operación es:</string>
+
+    <string name="recent_senders">Enviadores Recientes</string>
+    <string name="recent_receivers">Recibidores Recientes</string>
+
+    <string name="quote_summary_title1">Envía</string>
+    <string name="quote_summary_title2">Recibe</string>
+
+    <string name="my_transactions">Mis Transacciones</string>
+    <string name="my_account">Mi Cuenta</string>
+
+    <string name="enter_agent_code_desc">INGRESAR CODIGO DE AGENTE</string>
+    <string name="enter_agent_code">INGRESAR CODIGO DE AGENTE</string>
+
+    <string name="enter_transaction_code">INGRESAR EL CODIGO DEL ENVIO</string>
+
+    <string name="err_msg_firstName">Debe completar el Nombre</string>
+    <string name="err_msg_lastName">Debe completar el Apellido</string>
+    <string name="err_msg_dni">El DNI debe tener 8 numeros</string>
+    <string name="err_msg_phone_dont_exist">El número de teléfono no existe</string>
+    <string name="err_msg_phone_cant_validate">No se pudo validar el número de teléfono</string>
+    <string name="err_msg_phone_area">Debe ingresar el código de área</string>
+
+    <!--Facebook Account Kit-->
+    <string name="FACEBOOK_APP_ID">1137490812985626</string>
+    <string name="ak_login_protocol_scheme">ak1137490812985626</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">10949f9f80d0d723f8946b4a2137e9b0</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Resumen Cotización -->
+    <string name="quote_summary_confirm">Confirma Cotización</string>
+    <string name="quote_summary_country_not_available_title">País no habilitado aún</string>
+    <string name="quote_summary_country_not_available">no está habilitado aún para recibir envíos de dinero. Contáctenos a info@remitee.com para obtener mayor información acerca de cuando este país va a estar disponible.</string>
+
+    <!-- Ingresar Monto Cotización -->
+    <string name="quote_amount_corridor_error">No se pudo obtener información del tipo de cambio. Compruebe su conexión a Internet e intente nuevamente. Si el problema persiste contáctenos a info@remitee.com.</string>
+    <string name="quote_amount_title">Ingresa el monto</string>
+    <string name="quote_amount_legend1" formatted="false">Si envías %s %.0f (%s) tu familiar/amigo recibirá %s %.0f (%s)</string>
+    <string name="quote_amount_legend2" formatted="false">Para que tu familiar/amigo reciba USD 100 (dólares norteamericanos) debes enviar %s %.0f (%s)</string>
+    <string name="quote_amount_legend3" formatted="false">Si sos agente de Remitee recibirás un %.0f%% de descuento sobre el costo de envío</string>
+    <string name="quote_amount_min_validation" formatted="false">EL MINIMO DE ENVIO ES DE %s %.0f</string>
+
+    <string name="quote_amount_option1">Quiero enviar</string>
+    <string name="quote_amount_option2">o quiero que mi familiar/amigo reciba</string>
+
+
+
+    <!-- Ingresar Código de Agente -->
+    <string name="agent_code_title">Ingresa Código de Agente</string>
+    <string name="agent_code_error1">El Agente ha sido inhabilitado. Para mayor información contáctenos a info@remitee.com.</string>
+    <string name="agent_code_error2">El Agente no está habilitado para recibir dinero. Para mayor información contáctenos a info@remitee.com.</string>
+    <string name="agent_code_error3">El código ingresado es incorrecto.</string>
+    <string name="agent_code_error4">El Agente no tiene suficiente crédito para realizar esta operación. Para mayor información contáctenos a info@remitee.com.</string>
+    <string name="agent_code_error5">El Agente no está habilitado para entregar dinero. Para mayor información contáctenos a info@remitee.com.</string>
+
+    <string name="agent_code_error6">El Agente no está habilitado en este país.</string>
+
+    <string name="agent_code_error7">Esta transacción ya fue cobrada. Para mayor información contáctenos a info@remitee.com</string>
+    <string name="agent_code_error8">Esta transacción fue anulada. Para mayor información contáctenos a info@remitee.com</string>
+
+    <!-- Ingresar Medio de Pago -->
+    <string name="quote_payment_method_cash">Efectivo</string>
+    <string name="quote_payment_method_bank">Transferencia Bancaria</string>
+    <string name="quote_payment_method_creditcard">Tarjeta de Crédito</string>
+    <string name="quote_payment_method_billers">Pago de Servicios</string>
+
+    <!-- Ingresar Datos Bancarios -->
+    <string name="collect_bank_new_title">Ingresa Datos Bancarios</string>
+    <string name="collect_bank_title">Selecciona Cuenta Bancaria</string>
+    <string name="collect_bank_message">Ingresa los datos de la cuenta bancaria del destinatario</string>
+    <string name="collect_bank_select_bank">-- Seleccione Banco --</string>
+    <string name="collect_bank_account_number">Ingrese Número de Cuenta</string>
+    <string name="collect_bank_account_tin">Ingrese Número de Documento o ID Tributario</string>
+    <string name="collect_bank_account_type">Es Cuenta Corriente?</string>
+    <string name="err_msg_invalid_account_number">Debe ingresar un número de cuenta válido</string>
+    <string name="err_msg_select_bank">Debe seleccionar un Banco</string>
+    <string name="err_msg_invalid_tin_number">Debe ingresar el número de documento o ID Tributario asociado a la cuenta bancaria</string>
+    <string name="collect_bank_new_account">Agregar Cuenta</string>
+    <string name="collect_bank_select_account">Seleccionar Cuenta del Destinatario</string>
+    <string name="collect_bank_label_bank">Banco:</string>
+    <string name="collect_bank_label_document">Nro. Documento:</string>
+    <string name="collect_bank_label_account">Nro. Cuenta:</string>
+    <string name="collect_bank_label_cuit">CUIT/CUIL:</string>
+    <string name="collect_bank_label_cbu">CBU</string>
+    <string name="err_msg_invalid_cbu">El CBU ingresado debe tener 22 digitos</string>
+    <string name="err_msg_invalid_cuit">El CUIT/CUIL ingresado es incorrecto</string>
+    <string name="collect_bank_continue_button_text">Continuar sin Cuenta</string>
+
+    <!-- Ingresar Datos Cash -->
+    <string name="collect_cash_title">Muchas Gracias! Estas a un paso de cobrar tu dinero. Un Agente de Remitee se pondrá en contacto contigo</string>
+
+    <!-- Datos de Personas -->
+    <string name="select_party_sender_entered">Datos de enviador ingresados</string>
+    <string name="select_party_recipient_entered">Datos de recibidor ingresados</string>
+
+    <string name="no_connection">NO HAY CONEXION A INTERNET!</string>
+
+    <string name="send_confirm">Confirmar Envio</string>
+    <string name="remitee_message">Mensaje Remitee</string>
+    <string name="remitee_requires_access_contacts">Remitee requiere acceso a su Agenda de Contactos para facilitar su uso</string>
+    <string name="access_contacts_denied">No podrá usar la Agenda de Contactos</string>
+
+
+    <!-- Seleccionar Opcion de Cobro -->
+    <string name="collect_payment_method_title">Elegir Medio de Cobro</string>
+    <string name="collect_payment_method_not_available">MEDIO DE COBRO NO DISPONIBLE AÚN</string>
+    <string name="collect_payment_method_inkafarma_audit">Medio de Cobro Inkafarma</string>
+    <string name="collect_payment_method_cash_audit">Medio de Cobro Cash</string>
+    <string name="collect_payment_method_wong_audit">Medio de Cobro Wong</string>
+    <string name="collect_payment_method_wong">Supermercados WONG</string>
+    <string name="collect_payment_method_inkafarma">Farmacias INKAFARMA</string>
+
+    <string name="collect_cash_final_message">El pago se ha registrado éxitosamente y hemos actualizado la cuenta corriente del Agente Pagador. Ingrese a www.remitee.com para consultar el saldo de su cuenta corriente.</string>
+    <string name="collect_cash_final_title">Muchas Gracias.</string>
+    <string name="collect_cash_verify_title">Verificar Datos</string>
+
+
+
+
+
+
+</resources>

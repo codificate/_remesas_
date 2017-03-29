@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="net.iantech.android.remitee.AgentCodeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/card_padding"
+        android:paddingBottom="@dimen/card_padding"
+        android:layout_margin="@dimen/main_button_margin"
+        android:layout_marginTop="@dimen/pin_content_layout_padding"
+        android:background="@drawable/card_gray_background">
+
+        <TextView
+            android:id="@+id/agent_code_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/pin_label_margin"
+            android:gravity="center_horizontal"
+            android:text="@string/enter_transaction_code"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/trxcode_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/trxcode_first_edittext"
+                style="@style/pin_edittext_style"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/pin_content_layout_padding"
+                android:contentDescription="@string/enter_agent_code_desc"
+                android:inputType="textCapCharacters|textPassword"
+                android:nextFocusForward="@+id/trxcode_second_edittext" />
+
+            <EditText
+                android:id="@+id/trxcode_second_edittext"
+                style="@style/pin_edittext_style"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/pin_content_layout_padding"
+                android:contentDescription="@string/enter_agent_code_desc"
+                android:inputType="textCapCharacters|textPassword"
+                android:nextFocusForward="@+id/trxcode_third_edittext" />
+
+            <EditText
+                android:id="@+id/trxcode_third_edittext"
+                style="@style/pin_edittext_style"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/pin_content_layout_padding"
+                android:contentDescription="@string/enter_agent_code_desc"
+                android:inputType="textCapCharacters|textPassword"
+                android:nextFocusForward="@+id/trxcode_forth_edittext" />
+
+            <EditText
+                android:id="@+id/trxcode_forth_edittext"
+                style="@style/pin_edittext_style"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/pin_content_layout_padding"
+                android:contentDescription="@string/enter_agent_code_desc"
+                android:inputType="textCapCharacters|textPassword"
+                android:nextFocusForward="@+id/trxcode_fifth_edittext" />
+
+            <EditText
+                android:id="@+id/trxcode_fifth_edittext"
+                style="@style/pin_edittext_style"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/pin_content_layout_padding"
+                android:contentDescription="@string/enter_agent_code_desc"
+                android:inputType="textCapCharacters|textPassword"
+                android:nextFocusForward="@+id/trxcode_sixth_edittext" />
+
+            <EditText
+                android:id="@+id/trxcode_sixth_edittext"
+                style="@style/pin_edittext_style"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/pin_content_layout_padding"
+                android:contentDescription="@string/enter_agent_code_desc"
+                android:inputType="textCapCharacters|textPassword" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/trxcode_hidden_edittext"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@null"
+        android:contentDescription="@string/enter_agent_code_desc"
+        android:cursorVisible="false"
+        android:gravity="center_horizontal"
+        android:inputType="textCapCharacters|textPassword"
+        android:maxLength="6"
+        android:textColor="#00000000" />
+
+    <Button
+        android:id="@+id/validateTransactionCodeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="@dimen/main_button_vertical_padding"
+        android:paddingTop="@dimen/main_button_vertical_padding"
+        android:text="@string/action_continue"
+        android:textSize="@dimen/button_textsize"
+        android:theme="@style/AppTheme.RaisedButton.Accent" />
+</RelativeLayout>

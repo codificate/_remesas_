@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_collect_bank_layout"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/fragment_select_party_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorLightGray"
+        android:text="@string/collect_bank_select_account"
+        android:padding="@dimen/activity_vertical_margin"
+        />
+
+    <ListView
+        android:id="@+id/select_partyBankAccount_listView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:layout_marginBottom="@dimen/listview_margin"
+        />
+
+    <Button
+        android:id="@+id/collect_bank_add_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/main_button_vertical_padding"
+        android:paddingTop="@dimen/main_button_vertical_padding"
+        android:drawablePadding="@dimen/main_button_margin"
+        android:drawableStart="@drawable/ic_menu_new_white"
+        android:drawableLeft="@drawable/ic_menu_new_white"
+        android:text="@string/collect_bank_new_account"
+        android:gravity="start|center"
+        android:textSize="@dimen/button_textsize"
+        android:theme="@style/AppTheme.RaisedButton.Accent" />
+
+    <Button
+        android:id="@+id/collect_bank_continue_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/main_button_vertical_padding"
+        android:paddingTop="@dimen/main_button_vertical_padding"
+        android:drawablePadding="@dimen/main_button_margin"
+        android:drawableStart="@drawable/ic_menu_continue_white"
+        android:drawableLeft="@drawable/ic_menu_continue_white"
+        android:text="@string/collect_bank_continue_button_text"
+        android:gravity="start|center"
+        android:textSize="@dimen/button_textsize"
+        android:theme="@style/AppTheme.RaisedButton.Accent" />
+
+</LinearLayout>

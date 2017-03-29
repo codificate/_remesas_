@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/nav_quote"
+            android:icon="@drawable/ic_menu_quote"
+            android:title="@string/action_quote" />
+        <!--
+        <item
+            android:id="@+id/nav_my_transactions"
+            android:icon="@drawable/ic_menu_transactions"
+            android:title="@string/my_transactions" />
+        <item
+            android:id="@+id/nav_my_account"
+            android:icon="@drawable/ic_menu_account"
+            android:title="@string/my_account" />
+            -->
+    </group>
+<!--
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+-->
+</menu>

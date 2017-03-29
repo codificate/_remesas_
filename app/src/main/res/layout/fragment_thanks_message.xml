@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="net.iantech.android.remitee.ThanksMessageFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/main_bodytext_margin"
+        android:text="@string/thanks_message"
+        android:textSize="@dimen/main_bodytext_textsize" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/isologo"/>
+
+    <LinearLayout
+        android:id="@+id/thanksMessageFragment_code_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/main_button_margin"
+        android:layout_marginTop="@dimen/pin_content_layout_padding"
+        android:background="@drawable/card_gray_background"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/card_padding"
+        android:paddingTop="@dimen/card_padding">
+
+        <TextView
+            android:id="@+id/ThanksMessageFragment_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:text="@string/your_tracking_number"
+            android:textSize="@dimen/main_bodytext_textsize" />
+
+        <TextView
+            android:id="@+id/your_tracking_number_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/main_bodytext_textsize" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/main_bodytext_margin"
+        android:text="@string/notifications_message" />
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_gift_card_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="net.iantech.android.remitee.ReceiveGiftCardFragment">
+
+    <ImageView
+        android:id="@+id/giftcard_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/gift_card_expiration_textView"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/activity_vertical_verylargemargin"
+        android:src="@drawable/wong_gift_card" />
+
+    <TextView
+        android:id="@+id/gift_card_expiration_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center|end"
+        android:padding="@dimen/activity_vertical_margin"
+        android:text="Expira: Dic 10, 2016" />
+
+    <TextView
+        android:id="@+id/gift_card_amount_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:padding="@dimen/activity_vertical_margin"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/gift_card_barcode_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gift_card_amount_textView"
+        android:layout_centerHorizontal="true"
+        android:padding="@dimen/nav_header_vertical_smallspacing"
+        android:src="@drawable/barcode" />
+
+    <TextView
+        android:id="@+id/gift_card_pin_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gift_card_barcode_imageView"
+        android:layout_centerHorizontal="true"
+        android:text="PIN: 3487"
+        android:textSize="20sp" />
+</RelativeLayout>

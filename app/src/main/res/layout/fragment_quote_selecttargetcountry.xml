@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_quote_selecttargetcountry"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.iantech.android.remitee.QuoteSelectTargetCountryFragment">
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/listview_margin"
+        android:paddingRight="@dimen/listview_margin"
+        android:id="@+id/targetCountriesListView"
+         />
+</RelativeLayout>
